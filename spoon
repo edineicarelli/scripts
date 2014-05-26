@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /opt/pentaho/data-integration
+
+./spoon.sh

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Sublime Text
+Comment=Editor de Textos
+Icon=/home/rsilva/Documentos/Sublime Text 2/Icon/256x256/sublime_text.png
+Exec=/home/rsilva/Documentos/Sublime\ Text\ 2/sublime_text
+Terminal=false
+Type=Application

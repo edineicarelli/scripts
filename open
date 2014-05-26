@@ -1,0 +1,9 @@
+#/bin/bash
+
+
+
+PH=$(pwd "$1")"/$1";
+
+
+
+xdg-open "$PH" &> /dev/null &

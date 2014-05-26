@@ -1,0 +1,9 @@
+#This is the config of groovedown.
+#Fri Nov 01 19:53:22 BRST 2013
+autologin=false
+loglevel=3
+dlcount=5
+dlpath=/Arquivos/Musicas/Tape/
+lang=en
+first=true
+pathpattern=< Artist >< / >< Title >
