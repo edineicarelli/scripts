@@ -1,0 +1,19 @@
+#!/bin/sh
+sudo apt-get update
+	echo "Banco de repositórios atualizado..."
+sudo apt-get upgrade -y
+	echo "Pacotes foram devidamente atualizados..."
+sudo apt-get dist-upgrade -y
+	echo "Pacotes do sistema operacional estão atualizados..."
+sudo apt-get autoremove -y
+	echo "Pacotes desnecessários foram removidos..."
+
+if [ "$?" -eq 0 ]; then 
+	echo "Sistema atualizado"
+fi
+
+if [ "$?" -eq 1 ]; then 
+	echo "Algum erro ocorreu durante a instalação, tente novamente"
+fi
+
+#Fim
