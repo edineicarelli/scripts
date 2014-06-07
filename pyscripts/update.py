@@ -26,7 +26,7 @@ if comando=="-all" :
 if comando=="-gmail":
 
 
-  g = gmail.login("rafael.liverpool@gmail.com", "1863tatulima")
+  g = gmail.login("rafael.liverpool@gmail.com", "senha")
 
   if g.logged_in:
 
